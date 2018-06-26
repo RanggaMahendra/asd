@@ -5,9 +5,6 @@
   padding:0;
   padding-top:100px;
   margin:0;
-  border-width: 10px;
-  border-color: red;
-  border-style: solid
 }
 .grid-advertisement-gradient1{
   background-image: -moz-linear-gradient( -45deg, rgb( 222, 129, 60 ) 0%, rgb( 63, 81, 154 ) 100%);
@@ -43,10 +40,10 @@ width:800px;
   grid-column:1 / 2;
   grid-row: 1 / 3;
   position: absolute;
-  height:100% auto;
+  height:79% ;
   width: 100% auto;
   z-index: 600;
-  left:11%;
+  left:12%;
   top:6.4%;
 }
 .h1-price{
@@ -77,11 +74,11 @@ width:800px;
   position: absolute;
   grid-column:1 / 3;
   grid-row: 1 / 3;
-  height:80.3% ;
+  height:79.2% ;
   width: 100% auto;
   z-index: 600;
   top:6.28%;
-  left:31.1%;
+  left:31.2%;
 }
 .h1-gradient2{
 color:#fff;
@@ -112,10 +109,12 @@ font-size: 52px;
   background-image:url("../../Image_Resource/get_in_touch.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  grid-column:1 / 4;
+  grid-column:1 / 3;
   grid-row: 3 / 4;
   width:120%;
-  margin-right:25%
+  margin-left: -9%;
+  margin-top:-6%;
+  margin-bottom: 5%;
 }
 #intouchlist{
   padding-left:250px;
