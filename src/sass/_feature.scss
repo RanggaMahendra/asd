@@ -1,0 +1,56 @@
+  .obj1{
+      background-image:url("../../Image_Resource/Features_1.png");
+      background-size:contain ;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+  }
+  .obj2{
+      background-image:url("../../Image_Resource/Features_2.png");
+      background-size:contain;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+  }
+  .obj3{
+      background-image:url("../../Image_Resource/Features_3.png");
+      background-size:contain;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+  }
+  .obj4{
+      background-image:url("../../Image_Resource/Features_4.png");
+      background-size:contain;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+  }
+  .absolute-obj {
+      color: #000000;
+      background-color: #fff;
+      border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    right:160px;
+    height:350px;
+    width:700px;
+  }
+  .h1-feature{
+    text-align: center;
+    padding:15px;
+  }
+  .p-feature{
+    font-size: 18px;
+    text-align: center;
+    padding:40px;
+    padding-top:20px;
+    padding-bottom: 0;
+  }
+  .btn-feature{
+    position: relative;
+    left:270px;
+    width:150px;
+    margin-top: -30px;
+  }

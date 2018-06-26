@@ -1,0 +1,58 @@
+.col-sm{
+    z-index:200;
+    margin:0 auto;
+    padding-top:75px;
+    }
+    .btn-primary {
+      color: #fff;
+      background-image: -moz-linear-gradient( 0deg, rgb( 222, 129, 60 ) 0%, rgb( 63, 81, 154 ) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb( 222, 129, 60 ) 0%, rgb( 63, 81, 154 ) 100%);
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      text-align:center;
+      border:0;
+    }
+    
+    .btn-primary:hover {
+      color: #fff;
+      background-image: -moz-linear-gradient( 0deg, rgb( 210, 100, 60 ) 0%, rgb( 55, 70, 185 ) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb( 210, 100, 60 ) 0%, rgb( 55, 70, 185 ) 100%);
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+      color: #fff;
+      background-image: -moz-linear-gradient( 0deg, rgb( 200, 90, 60 ) 0%, rgb( 45, 60, 200 ) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb( 200, 90, 60 ) 0%, rgb( 45, 60, 200 ) 100%);
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+    .show > .btn-primary.dropdown-toggle {
+      color: #fff;
+      background-image: -moz-linear-gradient( 0deg, rgb( 210, 100, 60 ) 0%, rgb( 55, 70, 185 ) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb( 210, 100, 60 ) 0%, rgb( 55, 70, 185 ) 100%);
+    }
+    .btn-secondary{
+      background-color:#fff;
+      color: #000000;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      text-align:center;
+      border:0;
+    }
+    .card-title{
+        font-family:'Lato';
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .btn-card{
+        position:relative;
+        width:1.2in;
+        left:0.68in;
+        top:0.38in;
+    }

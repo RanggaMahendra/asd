@@ -1,0 +1,32 @@
+.about-us{
+    position: absolute;
+    vertical-align: middle;
+    z-index: 100;
+    margin-bottom: 50px;
+  }
+  .h1-about{
+    width:290px;
+    height:80px;
+    margin-bottom: 50px;
+  }
+  .p-about{
+    position: relative;
+    width:300px;
+    height:300px;
+    
+  }
+  .img{
+    position: relative;
+    right:180px;
+    bottom: 50px;
+    width:90% auto;
+    height:100% auto;    
+    z-index: 0;
+    margin:0 auto;
+    vertical-align: middle;
+  }
+  .about-us-2{
+    position: relative;
+    top:50px;
+    left:750px;
+  }
